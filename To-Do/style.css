@@ -1,0 +1,19 @@
+body{
+    border: 2px solid;
+    background-color: rgb(93, 170, 201);
+    text-align: center;
+    /* color: #ffffff; */
+}
+
+p,h1{
+    color: white;
+}
+div{
+    margin:auto;
+    position: relative;
+    width: 220px;
+    height:auto;
+    background-color:#ffffff6c;
+    border:1px solid grey;
+
+}
