@@ -5,19 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style2.css">
 </head>
 <body>
-    <p>
-        <h1>ToDo List</h1><br>
-        <p>What do you want to get done Today!</p>
-
-    <input id="data" type="text" name="" value="" onkeypress="enterKeyPressed(event)" autofocus /><br><br>
-    <div>   
-    <ol id="list" ></ol>
-    <!-- <button onclick="remove()">X</button> -->
-    <script src="./script.js"></script>
-</div>
-</p>
+    <div class="container">
+        <h1 class="header">ToDo List</h1>
+        <label for="task" class="input-label">What do you want to get done today?</label>
+        <input type="text" name="" id="inputBox" class="input-box" autofocus placeholder="Eg: Buy Fruits"> 
+        <div class="container-box" >
+            <ul class="task-list" id="list">
+                <!-- <li class="list">Buy Fruits
+                    <span>&times;</span></li>
+                 -->
+            </ul>
+        </div>
+    </div>
+    <script src="script2.js"></script>
 </body>
 </html>
