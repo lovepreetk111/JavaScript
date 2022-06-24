@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Roboto:wght@100&family=Ubuntu:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+}
+
+body {
+    background-color: rgba(163, 163, 163, 1);
+}
+
+#cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card{
+   background-color: rgba(23, 192, 235, 1);
+}
+
+.box {
+    margin-top: 63px;
+    width: 31rem;
+    height: 212px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #535353;
+    box-shadow: 3px 2px 3px 2px #535353;
+}
+
+.info {
+    margin: 26px;
+    color: whitesmoke;
+}
+
+.info h1 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.image {
+    width: 165.62px;
+    height: 170px;
+    border-radius: 100%;
+    margin-top: 21px;
+    margin-left: 20px;
+}
+
+.partition {
+    display: flex;
+}
+
+.left,
+.right {
+    /*  border: 2px solid white; */
+    margin-top: 1rem;
+    padding-right: 0.5rem;
+}
+
+
+.left p {
+    padding-bottom: 8px;
+    font-size: 16px;
+    width: max-content;
+
+}
+
+.right p {
+    padding-bottom: 8px;
+}
+
+.right {
+    padding-left: 15px;
+}
